@@ -1,97 +1,30 @@
 
 # Food Delivery App
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-  - [Admin Section](#admin-section)
-  - [User Section](#user-section)
-- [Technology Stack](#technology-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
-
 Welcome to the Food Delivery App! This application allows users to browse, purchase, and enjoy food items from various menus. Admins can manage products and orders effectively.
 
 ## Features
 
 ### Admin Section
-
 - **Add Product**: Admins can add new food items to the menu.
 - **View Orders**: Admins can view all orders placed by users.
 - **Change Order Status**: Admins can update order statuses to "Delivered", "Processing", or "Out for Delivery".
 - **View All Products**: Admins have access to the entire product list.
 
 ### User Section
-
 - **Create Account**: Users can sign up and create an account.
 - **Purchase Food Items**: Users can browse and purchase food items.
 - **Dummy Stripe Payment Integration**: Integrated with a dummy Stripe payment gateway.
 - **Filter Products**: Users can filter products by product menu.
 
 ## Technology Stack
-
 - **Frontend**: React
 - **Backend**: Express
 - **Database**: MongoDB
 - **Styling**: Tailwind CSS
 - **Authentication**: JWT (JSON Web Tokens)
 - **Image Upload**: Cloudinary
-
-## Installation
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/RijoKsd/food-delivery-app
-    cd food-delivery-app
-    ```
-
-2. **Install dependencies**:
-    ```bash
-    # Install backend dependencies
-    cd server
-    npm install
-
-    # Install frontend dependencies
-    cd ../client
-    npm install
-
-    # Install admin dependencies
-    cd ../admin
-    npm install
-    ```
-
-3. **Set up environment variables**:
-    - Create a `.env` file in the `server` directory and add the following:
-      ```env
-      MONGODB_URI=your_mongodb_connection_string
-      JWT_SECRET=your_jwt_secret
-      STRIPE_API_KEY=your_dummy_stripe_api_key
-      CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-      CLOUDINARY_API_KEY=your_cloudinary_api_key
-      CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-      ```
-
-4. **Start the application**:
-    ```bash
-    # Start backend server
-    cd server
-    npm run server
-
-    # Start frontend server
-    cd ../client
-    npm run dev
-
-    # Start admin server
-    cd ../admin
-    npm run dev
-    
-
-    ```
 
 ## Usage
 
@@ -106,14 +39,22 @@ Welcome to the Food Delivery App! This application allows users to browse, purch
    - Use the dummy Stripe payment integration for transactions.
    - Filter products by menu.
 
-## Contributing
+## Screenshots :- 
+![Screenshot (706)](https://github.com/user-attachments/assets/c481ff65-19ab-4c4c-ad50-524bcfef3745)
+![Screenshot (707)](https://github.com/user-attachments/assets/2b4dc49f-55c2-462f-8b69-004067a01fa6)
+![Screenshot (708)](https://github.com/user-attachments/assets/e7e1dc24-e1ab-4422-aad6-3aeb9f229f39)
+![Screenshot (703)](https://github.com/user-attachments/assets/79130fd8-79ea-4ddb-8ce8-34c748a8fc53)
+![Screenshot (704)](https://github.com/user-attachments/assets/3a92de9d-11c9-44da-af22-bb914ef0a7e7)
+![Screenshot (705)](https://github.com/user-attachments/assets/c9ddf760-6ce2-4999-8bb1-0b9582535201)
+![Screenshot (709)](https://github.com/user-attachments/assets/dd6799a5-06af-408c-b3c6-0b74eb219049)
+![Screenshot (710)](https://github.com/user-attachments/assets/a1a5923c-a868-4cf8-b882-c2412cff0d3e)
 
-Contributions are welcome! Please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a Pull Request.
+
+
+
+
+
+
 
  
